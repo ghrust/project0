@@ -1,6 +1,8 @@
 $header_font: 'Archivo Black', sans-serif;
+$main_font: Roboto;
 
 .html {
+    font-family: $main_font;
     font-size: 16px;
 }
 
@@ -31,23 +33,56 @@ $header_font: 'Archivo Black', sans-serif;
 
     /*--Menu--*/
 
-    .nav {
+    .menu {
         position: absolute;
-        bottom:0;
+        width: 100%;
+        bottom: 0;
+        margin-bottom: 0.6rem;
+    }
+
+    .menu::before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 2px;
+        color: #CFCFCF;
+    }
+    .nav {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
 
     .nav-item {
-
+        flex: 1 1 auto;
     }
 
     .nav-link {
         color: #fff;
         padding: 0;
     }
+
+    /*--Main section--*/
+
+    .section {
+    }
+
+    .section__main {
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    /*--Footer--*/
+    
+    .footer {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+    }
+
+    .copyright {
+        text-align: center;
+    }
 }
-
-
-
