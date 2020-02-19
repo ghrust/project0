@@ -1,4 +1,45 @@
-.header__title {
-  color: "Archivo Black", sans-serif;
+.html {
+  font-size: 16px;
+}
+
+@media (max-width: 767px) {
+  /*--banner--*/
+  .banner {
+    position: relative;
+    background: url(../images/banner.jpg) center/cover no-repeat;
+    min-height: 200px;
+  }
+  /*--Header--*/
+  .header__title {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    padding-top: 1rem;
+  }
+  .header__subtitle {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 1.1rem;
+    color: #D66424;
+    text-transform: uppercase;
+  }
+  /*--Menu--*/
+  .nav {
+    position: absolute;
+    bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .nav-link {
+    color: #fff;
+    padding: 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */

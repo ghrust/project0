@@ -1,5 +1,53 @@
 $header_font: 'Archivo Black', sans-serif;
 
-.header__title {
-    color: $header_font;
+.html {
+    font-size: 16px;
 }
+
+@media (max-width:767px) {
+    /*--banner--*/
+    .banner {
+        position: relative;
+        background: url(../images/banner.jpg) center/cover no-repeat;
+        min-height: 200px;
+    }
+
+    /*--Header--*/
+
+    .header__title {
+        font-family: $header_font;
+        font-size: 2rem;
+        color: #fff;
+        padding-top: 1rem;
+    }
+
+    .header__subtitle {
+        font-family: $header_font;
+        font-size: 1.1rem;
+        color: #D66424;
+        text-transform: uppercase;
+    }
+
+
+    /*--Menu--*/
+
+    .nav {
+        position: absolute;
+        bottom:0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nav-item {
+
+    }
+
+    .nav-link {
+        color: #fff;
+        padding: 0;
+    }
+}
+
+
+
