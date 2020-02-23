@@ -65,7 +65,7 @@
   padding-bottom: 2.5rem;
 }
 
-.photo {
+#photo {
   max-height: 200px;
   margin-top: 2rem;
 }
@@ -80,6 +80,19 @@
 
 .social a i {
   margin-right: 1rem;
+}
+
+table, th, td {
+  border: 1px #212529 solid;
+}
+
+table {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.blog-title {
+  margin-bottom: 2rem;
 }
 
 /*--Footer--*/

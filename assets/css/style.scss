@@ -72,7 +72,7 @@ $main_font: Roboto;
     padding-bottom: 2.5rem;
 }
 
-.photo {
+#photo {
     max-height: 200px;
     margin-top: 2rem;
 }
@@ -87,6 +87,23 @@ $main_font: Roboto;
     margin-right: -1rem;
 }
 
+%table {
+    border: 1px #212529 solid;
+}
+
+table {
+    @extend %table;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+th, td {
+    @extend %table;
+}
+
+.blog-title {
+    margin-bottom: 2rem;
+}
 
 /*--Footer--*/
 
