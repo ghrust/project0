@@ -72,6 +72,21 @@ $main_font: Roboto;
     padding-bottom: 2.5rem;
 }
 
+.photo {
+    max-height: 200px;
+    margin-top: 2rem;
+}
+
+.social {
+    a {
+        color: #212529;
+        i {
+            margin-right: 1rem;
+        }
+    }
+    margin-right: -1rem;
+}
+
 
 /*--Footer--*/
 
